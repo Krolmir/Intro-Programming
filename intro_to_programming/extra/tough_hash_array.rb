@@ -16,3 +16,4 @@ p contacts
 
 p contacts["Joe Smith"].fetch_values(:email)
 p contacts["Sally Johnson"].fetch_values(:number)
+
