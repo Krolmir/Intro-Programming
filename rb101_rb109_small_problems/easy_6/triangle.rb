@@ -26,9 +26,6 @@ def triangle(number)
   end
 end
 
-
-
-
 triangle(5)
 
 #     *
