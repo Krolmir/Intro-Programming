@@ -1,0 +1,24 @@
+=begin
+
+input : string
+output : new string
+steps :
+ - initialize result variable
+1 - break up the string into an array of wordds
+2 - itterate over that array of words
+    a - capitalize first letter, lower case the rest
+3 - return new string
+
+=end
+
+def word_cap(str)
+  result = []
+  str.split('')
+  
+  
+end
+
+
+word_cap('four score and seven') == 'Four Score And Seven'
+word_cap('the javaScript language') == 'The Javascript Language'
+word_cap('this is a "quoted" word') == 'This Is A "quoted" Word'
